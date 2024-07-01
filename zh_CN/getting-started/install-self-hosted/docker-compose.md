@@ -22,7 +22,7 @@ git clone https://github.com/langgenius/dify.git
 
 ```Shell
 cd dify/docker
-cp .env.example .env
+cp middleware.env.example .env
 docker compose up -d
 ```
 
@@ -94,4 +94,4 @@ docker compose down
 docker compose up -d
 ```
 
-完整的环境变量集合可以在 `docker/.env.example` 中找到。
+完整的环境变量集合可以在 `docker/middleware.env.example` 中找到。
