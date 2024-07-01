@@ -22,7 +22,7 @@ git clone https://github.com/langgenius/dify.git
 
 ```Shell
 cd dify/docker
-cp .env.example .env
+cp middleware.env.example .env
 docker compose up -d
 ```
 
